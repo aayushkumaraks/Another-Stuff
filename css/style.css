@@ -1,0 +1,136 @@
+/*
+This stylesheet is the property
+of the great, Ayush K Sinha!
+Don't ya dare steal it.
+Or I will sue you!!!
+ */
+.ant{
+    max-height: 30px;
+}
+
+.tiny{
+    max-width: 50pt;
+}
+
+.giant{
+    min-height: 80px;
+}
+
+.patch{
+    color: #000000;
+    text-shadow: 2px 2px 5px #fff;
+}
+
+.topbar{
+    width: 100%;
+    position: relative;
+    height: 30px;
+    display: block;
+    padding: 0 0 0 0;
+    background-color: #286090;
+    color: #ffffff;
+    overflow: hidden;
+
+}
+
+.white{
+    color: #ffffff;
+}
+
+.backee{
+    background: #1F4572;
+    border: #fff;
+    background-image: url("../img/bg.png");
+}
+
+.transpe{
+    background: transparent;
+    border: transparent;
+}
+
+.ccc{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    background: #ffffff;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.black{
+    color: #1F4572;
+}
+
+
+
+.bgchange{
+    background-color: #1F4572;
+    opacity: 0.9;
+}
+
+.bgchange:hover{
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
+    opacity: 2;
+}
+
+h1 h2 h3 h4 h5{
+    display: inline-block;
+}
+
+.comic{
+    font-family: FreeMono;
+    font-weight: bolder;
+}
+
+.bgwhite{
+    background: #ffffff;
+    background-image: url("../img/bgwhite.png");
+}
+
+/*.cornertop{*/
+    /*background-origin: border-box;*/
+    /*background-blend-mode: normal;*/
+    /*background-image: url("../img/corner.png");*/
+    /*background-position-y: 0;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 30%;*/
+/*}*/
+
+.txtsmall{
+    font-size: small;
+}
+
+.links{
+
+
+}
+
+.links:hover{
+    color: #c9e2b3;
+    transition-duration: 1s;
+    transform-style: flat;
+}
+
+.links:visited {
+    color: transparent;
+}
+
+.maxbtn{
+    min-width: 100%;
+    max-height: 40px;
+    background-image: url("../img/bg.png");
+}
+
+.list-group-item{
+    background:transparent;
+    color: white;
+}
+
+.list-group-item:hover{
+    background:white;
+    color: black;
+}
